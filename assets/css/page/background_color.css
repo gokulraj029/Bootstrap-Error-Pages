@@ -1,0 +1,190 @@
+/*================================================
+01 - IMPORTED CSS
+==================================================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+
+
+/*================================================
+02 - DEFAULT CSS
+==================================================*/ 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444;
+    font-weight: 400
+}
+html,body { 
+    height: 100%;
+}
+.background_color_400{
+    background-image: linear-gradient(45deg,#fe0b46,#ffab96)!important;
+    background-repeat: repeat-x!important;
+}
+.background_color_401{
+    background-image: linear-gradient(45deg,#843cf7,#38b8f2)!important;
+    background-repeat: repeat-x!important;
+}
+.background_color_403{
+    background-image: linear-gradient(45deg,#c33764,#1d2671)!important;
+    background-repeat: repeat-x!important;
+}
+.background_color_404{
+    background-image: linear-gradient(45deg,#ee0979,#ff6a00)!important;
+    background-repeat: repeat-x!important;
+}
+.background_color_419{
+    background-image: linear-gradient(45deg,#de6161,#2657eb)!important;
+    background-repeat: repeat-x!important;
+}
+.background_color_429{
+    background-image: linear-gradient(45deg,#d500f9,#ffa000)!important;
+    background-repeat: repeat-x!important;
+}
+.background_color_500{
+    background-image: linear-gradient(45deg,#ff512f,#dd2476)!important;
+    background-repeat: repeat-x!important;
+}
+.background_color_503{
+    background-image: linear-gradient(45deg,#23bcbb,#45e994)!important;
+    background-repeat: repeat-x!important;
+}
+/*================================================
+12 - ERROR PAGE CSS
+==================================================*/ 
+
+.error_page {
+    text-align: center;
+}
+.error_page > h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.error_page > h2 {
+    font-weight: 600;
+    margin-top: 30px;
+}
+.error_page > h2 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 22px
+}
+.error_page > h3 {
+    color: #ffffff;
+    font-size: 16px
+}
+.error_page > form{
+    margin-bottom: 30px;
+    position: relative;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error_page > form > input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    height: 50px;
+    padding: 5px 100px 5px 10px;
+    width: 100%;
+}
+.error_page > form > button {
+    background: #e30613  none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 26px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 100px;
+}
+.error_page > form > button:hover{
+    background: #2a2a2a none repeat scroll 0 0
+}
+.error-section{
+    min-height: 100%;
+    min-height: 100vh;
+    align-items: center;
+    min-width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+.error-btn {
+    background: #e30613 none repeat scroll 0 0;
+    border: 3px solid #e30613;
+    color: #fff;
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+.error-btn:hover{
+    background: #212121 none repeat scroll 0 0;
+    border: 3px solid #212121;
+    color: #fff;
+    text-decoration: none;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .error_page > h2{
+        margin-top: 15px
+    }
+}  
+@media only screen and (max-width: 767px) { 
+    .error_page > h1{
+        font-size: 70px;
+        line-height: 70px;
+        top: 26px;
+        padding: 15px
+    }
+    .error_page > h2{
+        margin-top: 30px;
+        font-size: 20px
+    }
+    .error-section{
+        /*padding-top: 100px*/
+        /*padding-bottom: 100px;*/
+        /*min-height: 100%;*/
+        min-height: 100%;
+        /*display: flex;*/
+        align-items: center;
+        min-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {       
+    .error_page > h1{
+        font-size: 70px;
+        line-height: 70px;
+        top: 26px;
+        padding: 15px
+    }
+    .error_page > h2{
+        margin-top: 30px;
+        font-size: 20px
+    }
+}    
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
