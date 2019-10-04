@@ -1,0 +1,316 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+    .header-right-overlay::before{
+        left: -260px
+    }
+    .slider-text{
+        width: 70%
+    }
+    .error_page > h3{
+        margin-top: 15px
+    }
+    .single-product-text{
+        padding: 10px
+    }
+    .product-button > a{
+        margin: 0
+    }
+    .product-thumb-info-image{
+        width: 55px
+    }
+    .product-thumb-info-content{
+        margin-top: 5px
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    .header-right-overlay{
+        display: none
+    }
+    .mobile-top-menu{
+        display: block
+    }
+    .site-logo {
+        text-align: center;
+        margin: 20px 0;
+        display: block
+    }
+    .header-right-top{
+        display: none
+    }
+    .mainmenu{
+        margin: 0
+    }
+    .header-search{
+        margin: 0
+    }
+    .single-service > h3{
+        font-size: 16px
+    }
+    .search-icon{
+        margin: 0
+    }
+    .slider-text{
+        width: 90%
+    }
+    .meat-shop-main-slide{
+        height: 480px
+    }
+    .single-footer-widget{
+        margin-top: 0
+    }
+    .no-pad-right{
+        padding-right: 15px
+    }
+    .margin-top{
+        margin-top: 50px
+    }
+    .instagram li{
+        width: 10%
+    }
+    .product-button > a{
+        padding: 5px 8px;
+        margin-right: 3px
+    }
+    .single-product-text{
+        padding: 10px
+    }
+    .login-page-box{
+        width: 60%
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+    .header-right-overlay{
+        display: none
+    }
+    .mobile-top-menu{
+        display: block
+    }
+    .site-logo {
+        display: block;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .header-right-top{
+        display: none
+    }
+    .mainmenu{
+        display: none
+    }
+    .meat-shop-mobile-menu{
+        display: block
+    }
+    .header-search{
+        float: right
+    }
+    .header-right {
+        background: #212121 none repeat scroll 0 0;
+        padding: 0 10px;
+    }
+    .search-icon{
+        margin-top: 0;
+        padding: 15px;
+        color: #fff
+    }
+    .search-form{
+        right: 5px;
+        width: 240px
+    }
+    .dropdown-menu.cart-dropdown{
+        min-width: 280px
+    }
+    .slider-text{
+        width: 100%
+    }
+    .slider-text h2{
+        font-size: 22px;
+        line-height: 30px
+    }
+    .meat-shop-main-slide{
+        height: 420px
+    }
+    .promo-heading > h2{
+        font-size: 22px;
+        line-height: 30px
+    }
+    .single-promo{
+        margin-top: 30px
+    }
+    .info-name{
+        margin-left: -15px
+    }
+    .meat-shop-broucher-section{
+        background: #f26520 none repeat scroll 0 0;
+        text-align: center
+    }
+    .broucher-overlay{
+        display: none
+    }
+    .download-btn{
+        float: none
+    }
+    .download-btn > a{
+        background: #212121 none repeat scroll 0 0;
+    }
+    .download-btn > a:hover{
+        background: #d95311 none repeat scroll 0 0;
+    }
+    .footer-logo img{
+        width: 70%
+    }
+    .single-footer-widget{
+        margin: 30px 0 !Important
+    }
+    .panel-title{
+        font-size: 14px
+    }
+    .margin-top{
+        margin-top: 50px
+    }
+    ul.pagination li{
+        margin: 0
+    }
+    .error_page > h2{
+        font-size: 70px;
+        line-height: 70px;
+        top: 26px;
+        padding: 15px
+    }
+    .error_page > h3{
+        margin-top: 30px;
+        font-size: 20px
+    }
+    .login-page-box{
+        width: 100%;
+        padding: 15px
+    }
+    .shorting{
+        text-align: center
+    }
+    .shorting form{
+        float: none
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    .header-right-overlay{
+        display: none
+    }
+    .mobile-top-menu{
+        display: block
+    }
+    .site-logo {
+        display: block;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .header-right-top{
+        display: none
+    }
+    .mainmenu{
+        display: none
+    }
+    .meat-shop-mobile-menu{
+        display: block
+    }
+    .header-search{
+        float: right
+    }
+    .header-right {
+        background: #212121 none repeat scroll 0 0;
+        padding: 0 10px;
+    }
+    .search-icon{
+        margin-top: 0;
+        padding: 15px;
+        color: #fff
+    }
+    .search-form{
+        right: 5px;
+        width: 240px
+    }
+    .dropdown-menu.cart-dropdown{
+        min-width: 280px
+    }
+    .slider-text{
+        width: 100%
+    }
+    .slider-text h2{
+        font-size: 22px;
+        line-height: 30px
+    }
+    .meat-shop-main-slide{
+        height: 420px
+    }
+    .promo-heading > h2{
+        font-size: 22px;
+        line-height: 30px
+    }
+    .info-name{
+        margin-left: -15px
+    }
+    .meat-shop-broucher-section{
+        background: #f26520 none repeat scroll 0 0;
+        text-align: center
+    }
+    .broucher-overlay{
+        display: none
+    }
+    .download-btn{
+        float: none
+    }
+    .download-btn > a{
+        background: #212121 none repeat scroll 0 0;
+    }
+    .download-btn > a:hover{
+        background: #d95311 none repeat scroll 0 0;
+    }
+    .footer-logo img{
+        width: 70%
+    }
+    .single-footer-widget{
+        margin: 30px 0 !Important
+    }
+    .no-pad-left{
+        padding-left: 15px
+    }
+    .panel-title{
+        font-size: 14px
+    }
+    .margin-top{
+        margin-top: 50px
+    }
+    ul.pagination li{
+        margin: 0
+    }
+    .error_page > h2{
+        font-size: 70px;
+        line-height: 70px;
+        top: 26px;
+        padding: 15px
+    }
+    .error_page > h3{
+        margin-top: 30px;
+        font-size: 20px
+    }
+    .login-page-box{
+        width: 100%;
+        padding: 15px
+    }
+    .shorting{
+        text-align: center
+    }
+    .shorting form{
+        float: none
+    }
+    .instagram img{
+        width: 100%
+    }
+}
